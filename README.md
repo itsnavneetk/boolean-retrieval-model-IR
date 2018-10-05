@@ -1,7 +1,8 @@
-# booleanRetrieval
+# bBooleanRetrieval
                                               
 ===========================================================================================================
-Built on python 2.7.3
+#Python 2.7.3
+
 1) Excute following commands
     a) python index.py
     b) It will ask you to enter directory path containing input text files. Paste the directory path and press enter
@@ -38,12 +39,11 @@ B) Merge :
 	   appropriate message will be printed. Else, print the respective file name by traversing docIdToFileName map
 	   for all the posting lists.
 	3) If there are more than 1 item in query_terms, it will get posting list for first and second term. Then calls mergePostingList
-	    ("This function takes 2 lists as input parameters and returns intersection of both in a sorted form") by passing posting lists of term0 and term1.
+	    ("This function takes 2 lists as input parameters and returns intersection of both in a sorted form") by passing posting 			lists of term0 and term1.
 	    The merge result will be used to get intersection of posting list of term3.
 	4) This will be repeated for all the subsequent query terms.
 	5) Result of step 2 will have merged list of all the query terms
 	6) Uses the final merged list to traverse through DocIdToFileName map and prints respective file names
-
 
 	                                            Performance
 =============================================================================================================
